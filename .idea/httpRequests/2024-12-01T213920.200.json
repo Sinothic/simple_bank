@@ -1,0 +1,21 @@
+{
+  "args": {
+    "show_env": "1"
+  },
+  "headers": {
+    "Accept": "application/json",
+    "Accept-Encoding": "br, deflate, gzip, x-gzip",
+    "Host": "examples.http-client.intellij.net",
+    "User-Agent": "IntelliJ HTTP Client/GoLand 2024.3",
+    "X-Forwarded-For": "200.219.58.41",
+    "X-Forwarded-Host": "examples.http-client.intellij.net",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https",
+    "X-Forwarded-Scheme": "https",
+    "X-Real-Ip": "200.219.58.41",
+    "X-Request-Id": "db7008f6c25daf74eb539ec00aead25e",
+    "X-Scheme": "https"
+  },
+  "origin": "200.219.58.41",
+  "url": "https://examples.http-client.intellij.net/get?show_env=1"
+}

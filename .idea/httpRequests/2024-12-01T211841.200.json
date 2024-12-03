@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "owner": "Alice",
+    "balance": 100,
+    "currency": "USD",
+    "created_at": "2024-11-27T03:02:11.563201Z"
+  },
+  {
+    "id": 2,
+    "owner": "Alice",
+    "balance": 100,
+    "currency": "USD",
+    "created_at": "2024-11-27T03:03:42.581523Z"
+  },
+  {
+    "id": 3,
+    "owner": "Alice",
+    "balance": 100,
+    "currency": "USD",
+    "created_at": "2024-11-27T03:05:59.356124Z"
+  },
+  {
+    "id": 4,
+    "owner": "King Ron Murphy",
+    "balance": 956,
+    "currency": "HTG",
+    "created_at": "2024-11-27T03:15:10.503129Z"
+  },
+  {
+    "id": 5,
+    "owner": "Mr. Gregg Considine",
+    "balance": 794,
+    "currency": "SYP",
+    "created_at": "2024-11-27T03:16:51.762539Z"
+  },
+  {
+    "id": 6,
+    "owner": "Dr. Joshuah Barton",
+    "balance": 267,
+    "currency": "BRL",
+    "created_at": "2024-11-27T03:26:38.100045Z"
+  },
+  {
+    "id": 7,
+    "owner": "Dr. Joshua Schuppe",
+    "balance": 561,
+    "currency": "ERN",
+    "created_at": "2024-11-27T03:29:52.442742Z"
+  },
+  {
+    "id": 8,
+    "owner": "Dr. Karl Schamberger",
+    "balance": 575,
+    "currency": "KRW",
+    "created_at": "2024-11-27T03:29:52.447466Z"
+  },
+  {
+    "id": 9,
+    "owner": "Queen Tanya Parisian",
+    "balance": 881,
+    "currency": "DOP",
+    "created_at": "2024-11-27T03:33:53.937853Z"
+  },
+  {
+    "id": 10,
+    "owner": "Ms. Abbigail Leuschke",
+    "balance": 378,
+    "currency": "TWD",
+    "created_at": "2024-11-27T03:34:02.893424Z"
+  }
+]

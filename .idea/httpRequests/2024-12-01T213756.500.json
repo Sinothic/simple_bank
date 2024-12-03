@@ -1,0 +1,3 @@
+{
+  "error": "pq: update or delete on table \"accounts\" violates foreign key constraint \"entries_account_id_fkey\" on table \"entries\""
+}

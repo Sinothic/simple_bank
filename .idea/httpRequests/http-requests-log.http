@@ -1,0 +1,515 @@
+DELETE http://localhost:8080/accounts/81
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-03T005156.200.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=1&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-03T005137.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-03T005126.200.json
+
+###
+
+GET http://localhost:8080/accounts/82
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-03T005103.200.json
+
+###
+
+GET http://localhost:8080/accounts/82
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-03T005102.200.json
+
+###
+
+GET http://localhost:8080/accounts/82
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-03T005059.200.json
+
+###
+
+GET http://localhost:8080/accounts/82
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-03T005049.200.json
+
+###
+
+GET http://localhost:8080/accounts/82
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-03T005037.200.json
+
+###
+
+GET https://examples.http-client.intellij.net/get?show_env=1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2024-12-01T213920.200.json
+
+###
+
+GET https://examples.http-client.intellij.net/status/301
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2024-12-01T213919.200.json
+
+###
+
+GET http://localhost:8080/accounts/82
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T213831.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T213826.200.json
+
+###
+
+DELETE http://localhost:8080/accounts/81
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-01T213821.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T213814.200.json
+
+###
+
+DELETE http://localhost:8080/accounts/1
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-01T213756.500.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=1&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T213737.200.json
+
+###
+
+DELETE http://localhost:8080/accounts/1
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-12-01T213719.404.txt
+
+###
+
+GET http://localhost:8080/accounts?page_id=1&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T212343.200.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=100&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T212331.200.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=100&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T212148.500.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=100&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T212028.200.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=1&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T211841.200.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=1&page_size=20
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T211835.400.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=0&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T211825.400.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=2&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T211757.200.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=1&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T211744.200.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=2&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T211721.200.json
+
+###
+
+GET http://localhost:8080/accounts?page_id=1&page_size=10
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T211707.200.json
+
+###
+
+GET http://localhost:8080/accounts/300
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T211209.404.json
+
+###
+
+GET http://localhost:8080/accounts/161
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T210638.200.json
+
+###
+
+GET http://localhost:8080/accounts/161
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T210606.200.json
+
+###
+
+GET http://localhost:8080/accounts/2
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T210529.200.json
+
+###
+
+GET http://localhost:8080/accounts/1
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-01T210518.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205953.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 38
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205945.400.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": ""
+}
+
+<> 2024-12-01T205936.400.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205829-1.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205829.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205828.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205827.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205826.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205825.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205755.200.json
+
+###
+
+POST http://localhost:8080/accounts
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205714.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+<> 2024-12-01T205611.404.txt
+
+###
+

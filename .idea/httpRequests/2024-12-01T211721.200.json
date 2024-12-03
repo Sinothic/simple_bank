@@ -1,0 +1,72 @@
+[
+  {
+    "id": 11,
+    "owner": "Mr. Lawrence Douglas",
+    "balance": 742,
+    "currency": "BSD",
+    "created_at": "2024-11-27T03:34:12.461368Z"
+  },
+  {
+    "id": 12,
+    "owner": "Queen Georgette Jaskolski",
+    "balance": 244,
+    "currency": "JMD",
+    "created_at": "2024-11-27T03:35:31.237484Z"
+  },
+  {
+    "id": 13,
+    "owner": "Ms. Jalyn Altenwerth",
+    "balance": 419,
+    "currency": "CUC",
+    "created_at": "2024-11-27T03:35:31.242526Z"
+  },
+  {
+    "id": 14,
+    "owner": "Princess Ashlee Bogan",
+    "balance": 197,
+    "currency": "XBA",
+    "created_at": "2024-11-27T03:35:31.246392Z"
+  },
+  {
+    "id": 15,
+    "owner": "Lord Jayde Considine",
+    "balance": 208,
+    "currency": "CLP",
+    "created_at": "2024-11-27T03:35:58.693828Z"
+  },
+  {
+    "id": 16,
+    "owner": "Mr. Murl Pagac",
+    "balance": 978,
+    "currency": "NIO",
+    "created_at": "2024-11-27T03:35:58.698452Z"
+  },
+  {
+    "id": 17,
+    "owner": "Prof. Karley Botsford",
+    "balance": 561,
+    "currency": "SBD",
+    "created_at": "2024-11-27T03:35:58.703907Z"
+  },
+  {
+    "id": 19,
+    "owner": "King Abdullah Langosh",
+    "balance": 478,
+    "currency": "SZL",
+    "created_at": "2024-11-27T03:44:35.197254Z"
+  },
+  {
+    "id": 20,
+    "owner": "Lord Lafayette Grant",
+    "balance": 89,
+    "currency": "UAH",
+    "created_at": "2024-11-27T03:44:35.201581Z"
+  },
+  {
+    "id": 21,
+    "owner": "Prof. Emerald Koss",
+    "balance": 944,
+    "currency": "PAB",
+    "created_at": "2024-11-27T03:44:35.203256Z"
+  }
+]

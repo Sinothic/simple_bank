@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "owner": "Prince Junior Satterfield",
+    "balance": 382,
+    "currency": "GNF",
+    "created_at": "2024-12-02T00:23:00.98647Z"
+  },
+  {
+    "id": 2,
+    "owner": "Prince Stevie Oberbrunner",
+    "balance": 991,
+    "currency": "CLP",
+    "created_at": "2024-12-02T00:23:00.997622Z"
+  },
+  {
+    "id": 3,
+    "owner": "Dr. Bartholome Green",
+    "balance": 867,
+    "currency": "HUF",
+    "created_at": "2024-12-02T00:23:01.007554Z"
+  },
+  {
+    "id": 5,
+    "owner": "Dr. Robbie Walker",
+    "balance": 166,
+    "currency": "NZD",
+    "created_at": "2024-12-02T00:23:01.024115Z"
+  },
+  {
+    "id": 6,
+    "owner": "Lord Dylan Stiedemann",
+    "balance": 839,
+    "currency": "AZN",
+    "created_at": "2024-12-02T00:23:01.026141Z"
+  },
+  {
+    "id": 7,
+    "owner": "Prince Jeremie Roob",
+    "balance": 77,
+    "currency": "BMD",
+    "created_at": "2024-12-02T00:23:01.02734Z"
+  },
+  {
+    "id": 8,
+    "owner": "Prof. Demario Champlin",
+    "balance": 605,
+    "currency": "GTQ",
+    "created_at": "2024-12-02T00:23:01.028676Z"
+  },
+  {
+    "id": 9,
+    "owner": "Mr. Golden Bogan",
+    "balance": 182,
+    "currency": "MKD",
+    "created_at": "2024-12-02T00:23:01.03012Z"
+  },
+  {
+    "id": 10,
+    "owner": "Lord Ladarius Hills",
+    "balance": 25,
+    "currency": "TND",
+    "created_at": "2024-12-02T00:23:01.03112Z"
+  },
+  {
+    "id": 11,
+    "owner": "Prof. Marco Langosh",
+    "balance": 767,
+    "currency": "BTN",
+    "created_at": "2024-12-02T00:23:01.032043Z"
+  }
+]
