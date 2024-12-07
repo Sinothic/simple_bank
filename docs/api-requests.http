@@ -1,0 +1,27 @@
+### create account
+POST http://localhost:8080/accounts
+Content-Type: application/json
+
+{
+  "owner": "Alice",
+  "currency": "USD"
+}
+
+### get account
+GET localhost:8080/accounts/82
+
+### list accounts
+GET localhost:8080/accounts?page_id=1&page_size=10
+
+### delete account
+DELETE localhost:8080/accounts/81
+
+### create transfer
+POST http://localhost:8080/transfers
+
+{
+  "from_account_id": 1,
+  "to_account_id": 2,
+  "amount": 10,
+  "currency": "USD"
+}

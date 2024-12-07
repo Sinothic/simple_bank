@@ -1,3 +1,191 @@
+GET http://localhost:8080/accounts/82
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-07T190242.200.json
+
+###
+
+GET http://localhost:8080/accounts/82
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-07T190239.200.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 2,
+  "amount": 10,
+  "currency": "USD"
+}
+
+<> 2024-12-07T184832.200.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 2,
+  "amount": 10,
+  "currency": "EUR"
+}
+
+<> 2024-12-07T184824.400.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 2,
+  "amount": 10,
+  "currency": "USD"
+}
+
+<> 2024-12-07T184818.200.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 2,
+  "amount": 10,
+  "currency": "ASD"
+}
+
+<> 2024-12-07T184803.400.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 2,
+  "amount": 10,
+  "currency": "USD"
+}
+
+<> 2024-12-07T184755.200.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 2,
+  "amount": 10,
+  "currency": "USD"
+}
+
+<> 2024-12-07T184747.200.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 2,
+  "amount": 10,
+  "currency": "USD"
+}
+
+<> 2024-12-06T231955.200.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 87
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 83,
+  "amount": 100,
+  "currency": "USD"
+}
+
+<> 2024-12-06T231806.200.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 87
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 83,
+  "amount": 100,
+  "currency": "USD"
+}
+
+<> 2024-12-06T231746.400.json
+
+###
+
+POST http://localhost:8080/transfers
+Content-Length: 87
+User-Agent: IntelliJ HTTP Client/GoLand 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "from_account_id": 1,
+  "to_account_id": 83,
+  "amount": 100,
+  "currency": "USD"
+}
+
+<> 2024-12-06T231700.400.json
+
+###
+
 DELETE http://localhost:8080/accounts/81
 User-Agent: IntelliJ HTTP Client/GoLand 2024.3
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -398,118 +586,6 @@ Accept: */*
 }
 
 <> 2024-12-01T205829.200.json
-
-###
-
-POST http://localhost:8080/accounts
-Content-Type: application/json
-Content-Length: 43
-User-Agent: IntelliJ HTTP Client/GoLand 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "owner": "Alice",
-  "currency": "USD"
-}
-
-<> 2024-12-01T205828.200.json
-
-###
-
-POST http://localhost:8080/accounts
-Content-Type: application/json
-Content-Length: 43
-User-Agent: IntelliJ HTTP Client/GoLand 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "owner": "Alice",
-  "currency": "USD"
-}
-
-<> 2024-12-01T205827.200.json
-
-###
-
-POST http://localhost:8080/accounts
-Content-Type: application/json
-Content-Length: 43
-User-Agent: IntelliJ HTTP Client/GoLand 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "owner": "Alice",
-  "currency": "USD"
-}
-
-<> 2024-12-01T205826.200.json
-
-###
-
-POST http://localhost:8080/accounts
-Content-Type: application/json
-Content-Length: 43
-User-Agent: IntelliJ HTTP Client/GoLand 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "owner": "Alice",
-  "currency": "USD"
-}
-
-<> 2024-12-01T205825.200.json
-
-###
-
-POST http://localhost:8080/accounts
-Content-Type: application/json
-Content-Length: 43
-User-Agent: IntelliJ HTTP Client/GoLand 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "owner": "Alice",
-  "currency": "USD"
-}
-
-<> 2024-12-01T205755.200.json
-
-###
-
-POST http://localhost:8080/accounts
-Content-Type: application/json
-Content-Length: 43
-User-Agent: IntelliJ HTTP Client/GoLand 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "owner": "Alice",
-  "currency": "USD"
-}
-
-<> 2024-12-01T205714.200.json
-
-###
-
-POST http://localhost:8080/account
-Content-Type: application/json
-Content-Length: 43
-User-Agent: IntelliJ HTTP Client/GoLand 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "owner": "Alice",
-  "currency": "USD"
-}
-
-<> 2024-12-01T205611.404.txt
 
 ###
 
