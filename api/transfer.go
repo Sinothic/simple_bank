@@ -16,6 +16,13 @@ type transferRequest struct {
 	Currency      string `json:"currency" binding:"required,currency"`
 }
 
+/*
+createTransfer handles HTTP request to create a new transfer
+
+Path: POST /transfers
+
+Body transferRequest
+*/
 func (server *Server) createTransfer(ctx *gin.Context) {
 	var req transferRequest
 	if err := ctx.ShouldBindJSON(&req); err != nil {

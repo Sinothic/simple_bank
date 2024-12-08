@@ -14,8 +14,16 @@ func createRandomAccount(t *testing.T) Account {
 	balance, err := faker.RandomInt(1, 1000, 1)
 	require.NoError(t, err)
 
+	user, err := testQueries.CreateUser(context.Background(), CreateUserParams{
+		HashedPassword: "xxxxxxxx",
+		Username:       faker.Username(),
+		FullName:       faker.Name(),
+		Email:          faker.Email(),
+	})
+	require.NoError(t, err)
+
 	args := CreateAccountParams{
-		Owner:    faker.Name(),
+		UserID:   user.ID,
 		Balance:  int64(balance[0]),
 		Currency: faker.Currency(),
 	}
@@ -24,7 +32,7 @@ func createRandomAccount(t *testing.T) Account {
 	require.NoError(t, err)
 	require.NotEmpty(t, account)
 
-	require.Equal(t, args.Owner, account.Owner)
+	require.Equal(t, args.UserID, account.UserID)
 	require.Equal(t, args.Balance, account.Balance)
 	require.Equal(t, args.Currency, account.Currency)
 
@@ -45,7 +53,7 @@ func TestGetAccount(t *testing.T) {
 
 	require.NotEmpty(t, dbAccount)
 	require.Equal(t, expectedAccount.ID, dbAccount.ID)
-	require.Equal(t, expectedAccount.Owner, dbAccount.Owner)
+	require.Equal(t, expectedAccount.UserID, dbAccount.UserID)
 	require.Equal(t, expectedAccount.Balance, dbAccount.Balance)
 	require.Equal(t, expectedAccount.Currency, dbAccount.Currency)
 	require.WithinDuration(t, expectedAccount.CreatedAt, dbAccount.CreatedAt, time.Second)

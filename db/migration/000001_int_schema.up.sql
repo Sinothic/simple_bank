@@ -1,6 +1,6 @@
 CREATE TABLE "accounts" (
                             "id" bigserial PRIMARY KEY,
-                            "owner" varchar NOT NULL,
+                            "user_id" bigint NOT NULL,
                             "balance" bigint NOT NULL,
                             "currency" varchar NOT NULL,
                             "created_at" timestamptz NOT NULL DEFAULT (now())
@@ -27,7 +27,7 @@ ALTER TABLE "transfers" ADD FOREIGN KEY ("from_account_id") REFERENCES "accounts
 
 ALTER TABLE "transfers" ADD FOREIGN KEY ("to_account_id") REFERENCES "accounts" ("id");
 
-CREATE INDEX ON "accounts" ("owner");
+CREATE INDEX ON "accounts" ("user_id");
 
 CREATE INDEX ON "entries" ("account_id");
 

@@ -94,7 +94,7 @@ func TestGetAccountApi(t *testing.T) {
 				require.NoError(t, err)
 
 				require.Equal(t, tc.GetAccount.Response.ID, response.ID)
-				require.Equal(t, tc.GetAccount.Response.Owner, response.Owner)
+				require.Equal(t, tc.GetAccount.Response.UserID, response.UserID)
 				require.Equal(t, tc.GetAccount.Response.Balance, response.Balance)
 				require.Equal(t, tc.GetAccount.Response.Currency, response.Currency)
 				require.WithinDuration(t, tc.GetAccount.Response.CreatedAt, response.CreatedAt, time.Second)
@@ -108,7 +108,7 @@ func TestGetAccountApi(t *testing.T) {
 func createRandomAccount() db.Account {
 	return db.Account{
 		ID:        1,
-		Owner:     "owner",
+		UserID:    1,
 		Balance:   544,
 		Currency:  "USD",
 		CreatedAt: time.Now(),

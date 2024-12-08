@@ -3,7 +3,7 @@ POST http://localhost:8080/accounts
 Content-Type: application/json
 
 {
-  "owner": "Alice",
+  "user_id": 1,
   "currency": "USD"
 }
 

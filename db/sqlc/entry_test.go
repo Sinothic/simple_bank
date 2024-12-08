@@ -8,10 +8,13 @@ import (
 )
 
 func TestCreateEntry(t *testing.T) {
+	account := createRandomAccount(t)
+
 	arg := CreateEntryParams{
-		AccountID: 1,
+		AccountID: account.ID,
 		Amount:    10,
 	}
+
 	updatedEntry, err := testQueries.CreateEntry(context.Background(), arg)
 	require.NoError(t, err)
 	require.NotEmpty(t, updatedEntry)
@@ -23,8 +26,10 @@ func TestCreateEntry(t *testing.T) {
 }
 
 func TestListEntries(t *testing.T) {
+	account := createRandomAccount(t)
+
 	arg := CreateEntryParams{
-		AccountID: 1,
+		AccountID: account.ID,
 		Amount:    10,
 	}
 	_, err := testQueries.CreateEntry(context.Background(), arg)
@@ -34,7 +39,7 @@ func TestListEntries(t *testing.T) {
 	require.NoError(t, err)
 
 	entries, err := testQueries.ListEntries(context.Background(), ListEntriesParams{
-		AccountID: 1,
+		AccountID: account.ID,
 		Limit:     2,
 		Offset:    0,
 	})
